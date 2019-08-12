@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <EditText
+        android:id="@+id/etID1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Id"
+        android:text="id"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etID1"
+        android:gravity="left"
+        android:hint="Title"
+        android:text="titlas"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etIsbn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTitle"
+        android:gravity="left"
+        android:hint="Isbn"
+        android:text="isbn"
+        android:textSize="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etIsbn"
+        android:gravity="left"
+        android:hint="Description"
+        android:text="aprasymas"
+        android:textSize="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDescription"
+        android:gravity="left"
+        android:hint="Price"
+        android:text="kaina"
+        android:textSize="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etCurrencyCode"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPrice"
+        android:gravity="left"
+        android:hint="Currency Code"
+        android:text="kodas"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCurrencyCode"
+        android:gravity="left"
+        android:hint="Author"
+        android:text="Autorius"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btPostbook"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/etID1"
+        android:layout_toRightOf="@id/etID1"
+        android:hint="Post"
+        android:textSize="15dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp">
+
+    </FrameLayout>
+</RelativeLayout>

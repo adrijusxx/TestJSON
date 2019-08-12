@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <EditText
+        android:id="@+id/et_ID1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Enter book id"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/bt_Searchbook"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/et_ID1"
+        android:layout_toRightOf="@id/et_ID1"
+        android:drawableLeft="@drawable/button_icon"
+        android:text="Search"
+        android:textSize="15dp"
+
+        />
+
+    <FrameLayout
+        android:id="@+id/frame_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:id="@+id/tv_Bookbyid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#fff" />
+    </FrameLayout>
+</RelativeLayout>
